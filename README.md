@@ -4,7 +4,8 @@ Docker-compose file is written to spawn both csvserver and prometheus. Prometheu
 
 How to Run:
 
-    1.	Run gencsv.sh to generate a inputfile.
-    2.	Run command from part-1-cmd to spawn a container from first part and it will need inputfile generated from first step.
-    3.	Stop container from step 2.
-    4.	Run "docker-compose up -d", keep Inputfile/prometheus.yaml in same folder from where docker compose needs to be run. Prometheus/CSVserver  containers will get spawn.
+    1.	Copy full repo to single folder/Everything should work from same folder with all above files. 
+    2.	Run gencsv.sh to generate a inputfile.
+    3.	Run command from part-1-cmd to spawn a container from first part and it will need inputfile generated from first step.
+    4.	Stop container from step 2.
+    5.	Run "docker-compose up -d", keep Inputfile/prometheus.yaml in same folder from where docker compose needs to be run. Prometheus/CSVserver  containers will get spawn.
