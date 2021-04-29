@@ -3,6 +3,7 @@ part-1-cmd has command to spawn the container with desired requirement. logs fil
 Docker-compose file is written to spawn both csvserver and prometheus. Prometheus.yml config have target http://csvserver:port as desired.
 
 How to Run:
+
     1.	Run gencsv.sh to generate a inputfile.
     2.	Run command from part-1-cmd to spawn a container from first part and it will need inputfile generated from first step.
     3.	Stop container from step 2.
